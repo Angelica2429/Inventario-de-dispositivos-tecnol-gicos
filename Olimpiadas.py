@@ -1,6 +1,6 @@
 print("Ejercicio # 2")
-
-usuarios= ["Camilo","Sara","Luisa"]
+usuarios[]
+usuarios=input("Ingrese un nombre") ["Camilo","Sara","Luisa"]
 dispositivos=["Laptop","Tablet","Smartphone"]
 
 #punto 1
@@ -19,6 +19,8 @@ if "Sara" in usuarios[1]:
 print(usuarios)
 
 elem=len(dispositivos)
+if elem==3:
+    dispositivos.remove([0])
 print(elem)
 # #punto 4
 # if dispositivos.len==3:
